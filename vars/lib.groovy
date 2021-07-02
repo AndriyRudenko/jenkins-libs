@@ -1,4 +1,3 @@
-import groovy.yaml.YamlBuilder
 def test() {
 
 def yamlBuilder = new YamlBuilder()
