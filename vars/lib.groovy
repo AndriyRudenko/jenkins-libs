@@ -1,7 +1,7 @@
+@Grab('groovy.yaml.YamlBuilder')
+import groovy.yaml.YamlBuilder
 
 def test() {
-import groovy.yaml.*;
-
 def yamlBuilder = new YamlBuilder()
 yamlBuilder{
     car{
