@@ -16,7 +16,7 @@ yamlBuilder{
     }
 }
 
-File filename1 = new File ("out1.yaml")
+File filename1 = new File (filepath/"out1.yaml")
 filename1.write(yamlBuilder.toString())
 println(filename1)
 
