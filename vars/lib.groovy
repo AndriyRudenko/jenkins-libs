@@ -1,5 +1,5 @@
-@GrabConfig(systemClassLoader= true)
-@Grab(group='groovy-yaml', module='groovy-yaml', version='3.0.0')
+
+@Grab(org.codehaus.groovy.groovy-all.3.0.8.repo.org.codehaus.groovy:groovy-yaml:3.0.8)
 import groovy.yaml.YamlBuilder
 
 def test() {
