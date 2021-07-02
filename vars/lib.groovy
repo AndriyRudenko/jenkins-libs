@@ -3,7 +3,7 @@
 import groovy.yaml.YamlBuilder
 @NonCPS
 def test(workdir) {
-
+println(workdir)
 def yamlBuilder = new YamlBuilder()
 yamlBuilder{
     car{
