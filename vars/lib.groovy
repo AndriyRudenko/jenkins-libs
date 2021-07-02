@@ -1,4 +1,4 @@
-@Grab('groovy.yaml.YamlBuilder')
+@Grab(group='groovy.yaml')
 import groovy.yaml.YamlBuilder
 
 def test() {
