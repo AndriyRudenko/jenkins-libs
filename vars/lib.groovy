@@ -1,10 +1,10 @@
 
 @Grab('org.codehaus.groovy.groovy-all.3.0.8.repo.org.codehaus.groovy:groovy-yaml:3.0.8')
-
+import groovy.yaml.YamlBuilder
 
 def test() {
-    import groovy.yaml.YamlBuilder
-yamlBuilder = new YamlBuilder()
+
+def yamlBuilder = new YamlBuilder()
 yamlBuilder{
     car{
         name 'Volvo'
