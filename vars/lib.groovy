@@ -1,3 +1,4 @@
+@GrabConfig(systemClassLoader= true)
 @Grab(group='groovy-yaml', module='groovy-yaml', version='3.0.0')
 import groovy.yaml.YamlBuilder
 
