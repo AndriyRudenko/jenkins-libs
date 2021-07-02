@@ -1,5 +1,5 @@
 import groovy.yaml.YamlBuilder
-def test {
+def test() {
 
 def yamlBuilder = new YamlBuilder()
 yamlBuilder{
