@@ -1,4 +1,4 @@
-@Grab(group='groovy', module='yaml', version='3.0.0')
+@Grab(group='java.lang.Object', module='groovy.lang.GroovyObjectSupport', version='3.0.0')
 import groovy.yaml.YamlBuilder
 
 def test() {
