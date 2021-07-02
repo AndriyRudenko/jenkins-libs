@@ -2,8 +2,8 @@
 @Grab('org.codehaus.groovy.groovy-all.3.0.8.repo.org.codehaus.groovy:groovy-yaml:3.0.8')
 import groovy.yaml.YamlBuilder
 @NonCPS
-def test(workdir) {
-println(workdir)
+def test(filepath) {
+println(filepath)
 def yamlBuilder = new YamlBuilder()
 yamlBuilder{
     car{
