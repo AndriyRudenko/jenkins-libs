@@ -3,7 +3,7 @@
 import groovy.yaml.YamlBuilder
 
 def test() {
-def yamlBuilder = new YamlBuilder()
+yamlBuilder = new YamlBuilder()
 yamlBuilder{
     car{
         name 'Volvo'
