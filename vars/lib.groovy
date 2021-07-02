@@ -1,6 +1,6 @@
-import groovy.yaml.*;
-def test() {
 
+def test() {
+import groovy.yaml.*;
 
 def yamlBuilder = new YamlBuilder()
 yamlBuilder{
