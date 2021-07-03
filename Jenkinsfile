@@ -17,6 +17,7 @@ pipeline {
                     
 
                     sh '''
+                    printenv
                     envsubst < test.test > test.yaml
                     '''
                    
